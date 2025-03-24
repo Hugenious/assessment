@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Work_Private\\Testing\\Library-Management-Blazor\\Library-Management\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Library-Management.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Library-Management.ahwzwwkoj8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Work_Private\\Testing\\Library-Management-Blazor\\Library-Management\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Work_Private\\Testing\\Library-Management-Blazor\\Library-Management\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Work_Private\\Testing\\Library-Management-Blazor\\Library-Management\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Work_Private\\Testing\\Library-Management-Blazor\\Library-Management\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Library-Management.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Library-Management.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Library-Management.props",
+      "PackagePath": "build\\Library-Management.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Library-Management.props",
+      "PackagePath": "buildMultiTargeting\\Library-Management.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Library-Management.props",
+      "PackagePath": "buildTransitive\\Library-Management.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

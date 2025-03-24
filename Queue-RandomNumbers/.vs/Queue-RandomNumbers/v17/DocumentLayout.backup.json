@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work_Private\\Testing\\Queue-RandomNumbers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C32ACC0-9BAC-4CC1-9A3D-E829448B17FB}|Queue-RandomNumbers\\Queue-RandomNumbers.csproj|c:\\work_private\\testing\\queue-randomnumbers\\queue-randomnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C32ACC0-9BAC-4CC1-9A3D-E829448B17FB}|Queue-RandomNumbers\\Queue-RandomNumbers.csproj|solutionrelative:queue-randomnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work_Private\\Testing\\Queue-RandomNumbers\\Queue-RandomNumbers\\Program.cs",
+              "RelativeDocumentMoniker": "Queue-RandomNumbers\\Program.cs",
+              "ToolTip": "C:\\Work_Private\\Testing\\Queue-RandomNumbers\\Queue-RandomNumbers\\Program.cs",
+              "RelativeToolTip": "Queue-RandomNumbers\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:09:32.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

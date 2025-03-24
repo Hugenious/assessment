@@ -1,0 +1,7 @@
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\bin\Debug\Queue-RandomNumbers.exe.config
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\bin\Debug\Queue-RandomNumbers.exe
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\bin\Debug\Queue-RandomNumbers.pdb
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\obj\Debug\Queue-RandomNumbers.csproj.AssemblyReference.cache
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\obj\Debug\Queue-RandomNumbers.csproj.CoreCompileInputs.cache
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\obj\Debug\Queue-RandomNumbers.exe
+C:\Work_Private\Testing\Queue-RandomNumbers\Queue-RandomNumbers\obj\Debug\Queue-RandomNumbers.pdb

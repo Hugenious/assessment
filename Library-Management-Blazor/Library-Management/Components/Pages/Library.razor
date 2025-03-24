@@ -1,0 +1,121 @@
+﻿@page "/library"
+@using Library_Management.Models
+@rendermode InteractiveServer
+@using LibraryManagement.Services
+@inject LibraryService LibraryService
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-primary">Library Management</h2>
+
+    <!-- Add a book to the library -->
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">Add a New Book</div>
+        <div class="card-body">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <input class="form-control" @bind="newBook.Title" placeholder="Title" />
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" @bind="newBook.Author" placeholder="Author" />
+                </div>
+                <div class="col-md-2">
+                    <input class="form-control" @bind="newBook.ISBN" placeholder="ISBN" />
+                </div>
+                <div class="col-md-2">
+                    <input class="form-control" @bind="newBook.PublishYear" type="number" placeholder="Year" />
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-success w-100" @onclick="AddBook">Add Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search books -->
+    <div class="card mb-4">
+        <div class="card-header bg-secondary text-white">Search Books</div>
+        <div class="card-body">
+            <div class="input-group">
+                <input class="form-control" @bind="searchKeyword" placeholder="Enter title, author, or ISBN" />
+                <button class="btn btn-primary" @onclick="SearchBooks">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- List all books available in the library -->
+    <div class="card">
+        <div class="card-header bg-dark text-white">Available Books</div>
+        <div class="card-body">
+            @if (displayedBooks.Any())
+            {
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th>Year</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var book in displayedBooks)
+                        {
+                            <tr>
+                                <td>@book.Title</td>
+                                <td>@book.Author</td>
+                                <td>@book.ISBN</td>
+                                <td>@book.PublishYear</td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm" @onclick="() => RemoveBook(book.ISBN)">
+                                        Remove
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-muted">No books available.</p>
+            }
+        </div>
+    </div>
+</div>
+
+<!--Code to perform library functions: adding, removing, searching and listing-->
+@code {
+    private Book newBook = new();
+    private string searchKeyword = "";
+    private List<Book> displayedBooks = new();
+
+    //Once library initialized , list all books.
+    protected override void OnInitialized() => displayedBooks = LibraryService.GetAllBooks();
+
+    //Adding a new book to the library
+    private void AddBook()
+    {
+        if (!string.IsNullOrWhiteSpace(newBook.Title) && !string.IsNullOrWhiteSpace(newBook.ISBN))
+        {
+            LibraryService.AddBook(newBook);
+            newBook = new Book();
+            displayedBooks = LibraryService.GetAllBooks();
+        }
+    }
+
+    //Removing a book from the library
+    private void RemoveBook(string isbn)
+    {
+        LibraryService.RemoveBook(isbn);
+        displayedBooks = LibraryService.GetAllBooks();
+    }
+
+    //Search book(s) within the lirbary
+    private void SearchBooks()
+    {
+        displayedBooks = string.IsNullOrWhiteSpace(searchKeyword)
+            ? LibraryService.GetAllBooks()
+            : LibraryService.SearchBook(searchKeyword);
+    }
+}

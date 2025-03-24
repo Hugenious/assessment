@@ -1,0 +1,10 @@
+C:\Work_Private\Testing\Weather-Api\Weather-Api\bin\Debug\Weather-Api.exe.config
+C:\Work_Private\Testing\Weather-Api\Weather-Api\bin\Debug\Weather-Api.exe
+C:\Work_Private\Testing\Weather-Api\Weather-Api\bin\Debug\Weather-Api.pdb
+C:\Work_Private\Testing\Weather-Api\Weather-Api\obj\Debug\Weather-Api.csproj.AssemblyReference.cache
+C:\Work_Private\Testing\Weather-Api\Weather-Api\obj\Debug\Weather-Api.csproj.CoreCompileInputs.cache
+C:\Work_Private\Testing\Weather-Api\Weather-Api\obj\Debug\Weather-Api.exe
+C:\Work_Private\Testing\Weather-Api\Weather-Api\obj\Debug\Weather-Api.pdb
+C:\Work_Private\Testing\Weather-Api\Weather-Api\bin\Debug\Newtonsoft.Json.dll
+C:\Work_Private\Testing\Weather-Api\Weather-Api\bin\Debug\Newtonsoft.Json.xml
+C:\Work_Private\Testing\Weather-Api\Weather-Api\obj\Debug\Weather-.98FA6A10.Up2Date

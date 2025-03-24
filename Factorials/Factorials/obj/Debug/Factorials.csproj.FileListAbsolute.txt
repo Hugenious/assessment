@@ -1,0 +1,7 @@
+C:\Work_Private\Testing\Factorials\Factorials\bin\Debug\Factorials.exe.config
+C:\Work_Private\Testing\Factorials\Factorials\bin\Debug\Factorials.exe
+C:\Work_Private\Testing\Factorials\Factorials\bin\Debug\Factorials.pdb
+C:\Work_Private\Testing\Factorials\Factorials\obj\Debug\Factorials.csproj.AssemblyReference.cache
+C:\Work_Private\Testing\Factorials\Factorials\obj\Debug\Factorials.csproj.CoreCompileInputs.cache
+C:\Work_Private\Testing\Factorials\Factorials\obj\Debug\Factorials.exe
+C:\Work_Private\Testing\Factorials\Factorials\obj\Debug\Factorials.pdb

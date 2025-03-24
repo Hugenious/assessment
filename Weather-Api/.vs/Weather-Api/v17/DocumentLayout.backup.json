@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work_Private\\Testing\\Weather-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F14237E5-CEB3-46C9-A84F-8760A1BCBC28}|Weather-Api\\Weather-Api.csproj|c:\\work_private\\testing\\weather-api\\weather-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14237E5-CEB3-46C9-A84F-8760A1BCBC28}|Weather-Api\\Weather-Api.csproj|solutionrelative:weather-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work_Private\\Testing\\Weather-Api\\Weather-Api\\Program.cs",
+              "RelativeDocumentMoniker": "Weather-Api\\Program.cs",
+              "ToolTip": "C:\\Work_Private\\Testing\\Weather-Api\\Weather-Api\\Program.cs",
+              "RelativeToolTip": "Weather-Api\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwCYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:13:59.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
